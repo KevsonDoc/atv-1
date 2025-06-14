@@ -2,9 +2,33 @@ html {
   scroll-behavior: smooth;
 }
 
+.carousel-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#slider {
+  padding: 0 !important;
+}
+
 .navbar {
   background: #000;
+  padding: 0 15%;
 }
+
+section {
+  padding: 30px 15%;
+}
+
+#myCarousel {
+  height: 700px;
+}
+
+div.carousel-item {
+  height: 700px;
+}
+
 
 .navbar img {
   width: 90px;
@@ -23,7 +47,6 @@ html {
   height: 500px;
 }
 
-
 /*Showcase*/
 #showcase .fas {
   font-size: 35px;
@@ -38,6 +61,7 @@ html {
 
 /*Footer*/
 #footer {
+  padding: 0 15%;
   background: #000;
 }
 
