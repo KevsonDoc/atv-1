@@ -1,0 +1,156 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: #000;
+}
+
+.navbar img {
+  width: 90px;
+}
+
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+.navbar .webT {
+  font-size: 20px;
+}
+
+/*Slider*/
+.carousel-item {
+  height: 500px;
+}
+
+
+/*Showcase*/
+#showcase .fas {
+  font-size: 35px;
+
+}
+
+/*Gallery*/
+#gallery img {
+  max-height: 200px;
+  width: 100%;
+}
+
+/*Footer*/
+#footer {
+  background: #000;
+}
+
+#footer .fab {
+  font-size: 25px;
+  color: #fff;
+  border: 1px solid #7f8c8d;
+  padding: 5px;
+}
+
+#footer .fab:hover {
+  color: #ff0000;
+  border-color: #000;
+}
+
+#about-services .fas {
+  font-size: 50px;
+}
+
+#dublador {
+  background: url('https://www.shutterstock.com/shutterstock/videos/3471128511/thumb/1.jpg?ip=x480');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  #info .infoS {
+    margin-top: 0px;
+  }
+
+  #gallery img {
+    height: 120px;
+  }
+}
+
+@media(max-width:767px) {
+  #get-started .gC {
+    margin-top: 0 !important;
+  }
+
+  #info p {
+    font-size: 15px;
+    margin-top: 0;
+  }
+
+  #info h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+@media(max-width: 575px) {
+  #info .infoS {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  #gallery img {
+    width: 80%;
+    height: 200px;
+  }
+
+  #gallery .col-lg-4.col-md-4.col-sm-4 {
+    width: 80%;
+    height: 200px;
+    margin: 5px auto;
+    margin-left: 50px;
+  }
+
+  #services-faq {
+    height: 600px;
+  }
+}
+
+@media(max-width: 420px) {
+  .navbar .navbar-brand {
+    width: 75%;
+  }
+
+  #myCarousel .display-4 {
+    font-size: 45px !important;
+  }
+
+  #showcase .lead {
+    font-size: 16px;
+  }
+
+  #get-started .lead {
+    font-size: 16px;
+    margin-top: 0;
+  }
+
+  #get-started h3 {
+    margin-bottom: 0;
+  }
+
+  #gallery .col-lg-4.col-md-4.col-sm-4 {
+    width: 100%;
+    height: 200px;
+    margin: 5px auto;
+    margin-left: 50px;
+  }
+}
+
+/* Apply object-fit: cover to voice actor card images */
+.card-img-top.object-fit-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+  aspect-ratio: 1/1;
+  object-position: top center;
+}
